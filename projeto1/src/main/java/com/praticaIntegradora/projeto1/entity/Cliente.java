@@ -19,7 +19,7 @@ public class Cliente {
     private String nomeCliente;
 
     @Column(name = "tel_cliente")
-    private Integer telefoneCliente;
+    private Long telefoneCliente;
 
     @Column(name = "dt_nasc_cliente")
     private LocalDate dataNascimentoCliente;
@@ -38,10 +38,10 @@ public class Cliente {
         this.nomeCliente = nomeCliente;
     }
 
-    public Integer getTelefoneCliente() {
+    public Long getTelefoneCliente() {
         return telefoneCliente;
     }
-    public void setTelefoneCliente(Integer telefoneCliente) {
+    public void setTelefoneCliente(Long telefoneCliente) {
         this.telefoneCliente = telefoneCliente;
     }
 

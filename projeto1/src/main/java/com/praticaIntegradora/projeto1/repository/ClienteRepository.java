@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
-public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
-//Removi o GETALL pois no proprio JPA existe um metodo chamado findAll -> o correto a se usar.
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {
+
 
 }
